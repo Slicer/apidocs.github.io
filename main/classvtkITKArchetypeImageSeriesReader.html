@@ -126,8 +126,8 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a93014e6d09f397ff7d71cd4dd737ed46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reader to use when reading as a scalar image data.  <a href="#a93014e6d09f397ff7d71cd4dd737ed46">More...</a><br /></td></tr>
 <tr class="separator:a93014e6d09f397ff7d71cd4dd737ed46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4adc0e5698c568f4f113640e7a6c9a1" id="r_ad4adc0e5698c568f4f113640e7a6c9a1"><td class="memItemLeft" align="right" valign="top">typedef itk::SpatialOrientation::ValidCoordinateOrientationFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4adc0e5698c568f4f113640e7a6c9a1">CoordinateOrientationCode</a></td></tr>
-<tr class="separator:ad4adc0e5698c568f4f113640e7a6c9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee70841bf8cdc96b5f778d07c13a34d" id="r_a1ee70841bf8cdc96b5f778d07c13a34d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ee70841bf8cdc96b5f778d07c13a34d">CoordinateOrientationCode</a> = itk::SpatialOrientationEnums::ValidCoordinateOrientations</td></tr>
+<tr class="separator:a1ee70841bf8cdc96b5f778d07c13a34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba52ed3259144f1a7a39581e5108f367" id="r_aba52ed3259144f1a7a39581e5108f367"><td class="memItemLeft" align="right" valign="top">typedef vtkImageAlgorithm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba52ed3259144f1a7a39581e5108f367">Superclass</a></td></tr>
 <tr class="separator:aba52ed3259144f1a7a39581e5108f367"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -179,7 +179,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4dace42a08ab9c6e510624522749ba4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f07322f428a5cbdbbfcd876827978ac" id="r_a9f07322f428a5cbdbbfcd876827978ac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f07322f428a5cbdbbfcd876827978ac">GetDefaultDataSpacing</a> (double[3])</td></tr>
 <tr class="separator:a9f07322f428a5cbdbbfcd876827978ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8be6cf5972917f8d0362a6033d195c6" id="r_ac8be6cf5972917f8d0362a6033d195c6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ad4adc0e5698c568f4f113640e7a6c9a1">CoordinateOrientationCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8be6cf5972917f8d0362a6033d195c6">GetDesiredCoordinateOrientation</a> ()</td></tr>
+<tr class="memitem:ac8be6cf5972917f8d0362a6033d195c6" id="r_ac8be6cf5972917f8d0362a6033d195c6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#a1ee70841bf8cdc96b5f778d07c13a34d">CoordinateOrientationCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8be6cf5972917f8d0362a6033d195c6">GetDesiredCoordinateOrientation</a> ()</td></tr>
 <tr class="separator:ac8be6cf5972917f8d0362a6033d195c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7949599d94dd1870b0e7571ce3d369d" id="r_ac7949599d94dd1870b0e7571ce3d369d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7949599d94dd1870b0e7571ce3d369d">GetDICOMImageIOApproach</a> ()</td></tr>
 <tr class="separator:ac7949599d94dd1870b0e7571ce3d369d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -462,7 +462,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a92332b9785fcfe1b49e972d217622ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6bdfae3dd71953e731f42f65941d394" id="r_ab6bdfae3dd71953e731f42f65941d394"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6bdfae3dd71953e731f42f65941d394">DefaultDataSpacing</a> [3]</td></tr>
 <tr class="separator:ab6bdfae3dd71953e731f42f65941d394"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e2cd4f6439f27567f1c2b61e349ac7d" id="r_a3e2cd4f6439f27567f1c2b61e349ac7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ad4adc0e5698c568f4f113640e7a6c9a1">CoordinateOrientationCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e2cd4f6439f27567f1c2b61e349ac7d">DesiredCoordinateOrientation</a></td></tr>
+<tr class="memitem:a3e2cd4f6439f27567f1c2b61e349ac7d" id="r_a3e2cd4f6439f27567f1c2b61e349ac7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1ee70841bf8cdc96b5f778d07c13a34d">CoordinateOrientationCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e2cd4f6439f27567f1c2b61e349ac7d">DesiredCoordinateOrientation</a></td></tr>
 <tr class="separator:a3e2cd4f6439f27567f1c2b61e349ac7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84dde08a0e2791220c52dd1c4cae1252" id="r_a84dde08a0e2791220c52dd1c4cae1252"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84dde08a0e2791220c52dd1c4cae1252">DICOMImageIOApproach</a></td></tr>
 <tr class="separator:a84dde08a0e2791220c52dd1c4cae1252"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -565,14 +565,14 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00045">45</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ad4adc0e5698c568f4f113640e7a6c9a1" name="ad4adc0e5698c568f4f113640e7a6c9a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4adc0e5698c568f4f113640e7a6c9a1">&#9670;&#160;</a></span>CoordinateOrientationCode</h2>
+<a id="a1ee70841bf8cdc96b5f778d07c13a34d" name="a1ee70841bf8cdc96b5f778d07c13a34d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ee70841bf8cdc96b5f778d07c13a34d">&#9670;&#160;</a></span>CoordinateOrientationCode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef itk::SpatialOrientation::ValidCoordinateOrientationFlags <a class="el" href="#ad4adc0e5698c568f4f113640e7a6c9a1">vtkITKArchetypeImageSeriesReader::CoordinateOrientationCode</a></td>
+          <td class="memname">using <a class="el" href="#a1ee70841bf8cdc96b5f778d07c13a34d">vtkITKArchetypeImageSeriesReader::CoordinateOrientationCode</a> = itk::SpatialOrientationEnums::ValidCoordinateOrientations</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1242,7 +1242,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="#ad4adc0e5698c568f4f113640e7a6c9a1">CoordinateOrientationCode</a> vtkITKArchetypeImageSeriesReader::GetDesiredCoordinateOrientation </td>
+          <td class="memname">virtual <a class="el" href="#a1ee70841bf8cdc96b5f778d07c13a34d">CoordinateOrientationCode</a> vtkITKArchetypeImageSeriesReader::GetDesiredCoordinateOrientation </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -3192,7 +3192,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the orientation of the output image. </p>
-<p>itk::SpatialOrientation::ITK_COORDINATE_ORIENTATION_RPS;</p>
+<p>CoordinateOrientationCode::ITK_COORDINATE_ORIENTATION_RPS;</p>
 
 <p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00111">111</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
@@ -3220,7 +3220,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>itk::SpatialOrientation::ITK_COORDINATE_ORIENTATION_RIP;</p>
+<p>CoordinateOrientationCode::ITK_COORDINATE_ORIENTATION_RIP;</p>
 
 <p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00119">119</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
@@ -3275,7 +3275,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>itk::SpatialOrientation::ITK_COORDINATE_ORIENTATION_AIR;</p>
+<p>CoordinateOrientationCode::ITK_COORDINATE_ORIENTATION_AIR;</p>
 
 <p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00127">127</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
@@ -4402,7 +4402,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ad4adc0e5698c568f4f113640e7a6c9a1">CoordinateOrientationCode</a> vtkITKArchetypeImageSeriesReader::DesiredCoordinateOrientation</td>
+          <td class="memname"><a class="el" href="#a1ee70841bf8cdc96b5f778d07c13a34d">CoordinateOrientationCode</a> vtkITKArchetypeImageSeriesReader::DesiredCoordinateOrientation</td>
         </tr>
       </table>
   </td>
@@ -5560,7 +5560,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 28 2025 11:40:41 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+Generated on Tue Jan 28 2025 21:19:19 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
 </small></address>
 </body>
 </html>

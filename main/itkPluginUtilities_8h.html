@@ -84,7 +84,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;itkContinuousIndex.h&gt;</code><br />
-<code>#include &lt;itkImage.h&gt;</code><br />
+<code>#include &lt;itkCommonEnums.h&gt;</code><br />
 <code>#include &lt;itkImageFileReader.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="itkPluginFilterWatcher_8h_source.html">itkPluginFilterWatcher.h</a>&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
@@ -94,23 +94,23 @@ Include dependency graph for itkPluginUtilities.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="itkPluginUtilities_8h__incl.png" border="0" usemap="#aBase_2CLI_2itkPluginUtilities_8h" alt=""/></div>
 <map name="aBase_2CLI_2itkPluginUtilities_8h" id="aBase_2CLI_2itkPluginUtilities_8h">
-<area shape="rect" title=" " alt="" coords="381,5,584,31"/>
+<area shape="rect" title=" " alt="" coords="443,5,645,31"/>
 <area shape="rect" title=" " alt="" coords="5,79,165,104"/>
-<area shape="poly" title=" " alt="" coords="419,33,164,79,163,74,418,28"/>
-<area shape="rect" title=" " alt="" coords="190,79,282,104"/>
-<area shape="poly" title=" " alt="" coords="444,33,290,77,288,72,442,28"/>
-<area shape="rect" title=" " alt="" coords="307,79,467,104"/>
-<area shape="poly" title=" " alt="" coords="469,33,415,72,412,68,466,29"/>
-<area shape="rect" href="itkPluginFilterWatcher_8h.html" title=" " alt="" coords="491,79,667,104"/>
-<area shape="poly" title=" " alt="" coords="500,29,553,68,550,72,497,33"/>
-<area shape="rect" title=" " alt="" coords="691,79,754,104"/>
-<area shape="poly" title=" " alt="" coords="522,28,679,74,677,79,520,33"/>
-<area shape="rect" title=" " alt="" coords="779,79,837,104"/>
-<area shape="poly" title=" " alt="" coords="543,28,765,76,764,81,542,33"/>
-<area shape="rect" title=" " alt="" coords="365,152,573,177"/>
-<area shape="poly" title=" " alt="" coords="563,106,500,147,497,142,560,102"/>
-<area shape="rect" title=" " alt="" coords="597,152,779,177"/>
-<area shape="poly" title=" " alt="" coords="598,102,660,142,657,147,595,106"/>
+<area shape="poly" title=" " alt="" coords="471,33,173,79,172,74,470,28"/>
+<area shape="rect" title=" " alt="" coords="189,79,344,104"/>
+<area shape="poly" title=" " alt="" coords="500,33,326,78,324,73,499,28"/>
+<area shape="rect" title=" " alt="" coords="368,79,528,104"/>
+<area shape="poly" title=" " alt="" coords="530,33,476,72,473,68,527,29"/>
+<area shape="rect" href="itkPluginFilterWatcher_8h.html" title=" " alt="" coords="552,79,728,104"/>
+<area shape="poly" title=" " alt="" coords="561,29,615,68,612,72,558,33"/>
+<area shape="rect" title=" " alt="" coords="753,79,815,104"/>
+<area shape="poly" title=" " alt="" coords="583,28,740,74,739,79,582,33"/>
+<area shape="rect" title=" " alt="" coords="840,79,899,104"/>
+<area shape="poly" title=" " alt="" coords="605,28,827,76,826,81,604,33"/>
+<area shape="rect" title=" " alt="" coords="427,152,635,177"/>
+<area shape="poly" title=" " alt="" coords="624,106,562,147,559,142,621,102"/>
+<area shape="rect" title=" " alt="" coords="659,152,840,177"/>
+<area shape="poly" title=" " alt="" coords="659,102,721,142,718,147,656,106"/>
 </map>
 </div>
 </div>
@@ -127,17 +127,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a6c12b35048398ed2febaa47dc5fa8f2b" id="r_a6c12b35048398ed2febaa47dc5fa8f2b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a6c12b35048398ed2febaa47dc5fa8f2b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceitk.html#a6c12b35048398ed2febaa47dc5fa8f2b">itk::AlignVolumeCenters</a> (T *fixed, T *moving, typename T::PointType &amp;origin)</td></tr>
 <tr class="separator:a6c12b35048398ed2febaa47dc5fa8f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9dfd09ec6bd68244b8712e0da5a5069" id="r_ab9dfd09ec6bd68244b8712e0da5a5069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceitk.html#ab9dfd09ec6bd68244b8712e0da5a5069">itk::GetImageType</a> (std::string fileName, ImageIOBase::IOPixelType &amp;pixelType, ImageIOBase::IOComponentType &amp;componentType)</td></tr>
-<tr class="memdesc:ab9dfd09ec6bd68244b8712e0da5a5069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the PixelType and ComponentType from fileName.  <br /></td></tr>
-<tr class="separator:ab9dfd09ec6bd68244b8712e0da5a5069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac635127ed44cda416445cc80d23ba9d2" id="r_ac635127ed44cda416445cc80d23ba9d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceitk.html#ac635127ed44cda416445cc80d23ba9d2">itk::GetImageTypes</a> (std::vector&lt; std::string &gt; fileNames, std::vector&lt; ImageIOBase::IOPixelType &gt; &amp;pixelTypes, std::vector&lt; ImageIOBase::IOComponentType &gt; &amp;componentTypes)</td></tr>
-<tr class="memdesc:ac635127ed44cda416445cc80d23ba9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the PixelTypes and ComponentTypes from fileNames.  <br /></td></tr>
-<tr class="separator:ac635127ed44cda416445cc80d23ba9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ae4a06f755bc95d7ee97320be35cf2" id="r_a08ae4a06f755bc95d7ee97320be35cf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceitk.html#a08ae4a06f755bc95d7ee97320be35cf2">itk::GetImageType</a> (std::string fileName, IOPixelEnum &amp;pixelType, IOComponentEnum &amp;componentType)</td></tr>
+<tr class="memdesc:a08ae4a06f755bc95d7ee97320be35cf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the PixelType and ComponentType from fileName.  <br /></td></tr>
+<tr class="separator:a08ae4a06f755bc95d7ee97320be35cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab17812c372ecb00cf28b11d859939e20" id="r_ab17812c372ecb00cf28b11d859939e20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceitk.html#ab17812c372ecb00cf28b11d859939e20">itk::GetImageTypes</a> (std::vector&lt; std::string &gt; fileNames, std::vector&lt; IOPixelEnum &gt; &amp;pixelTypes, std::vector&lt; IOComponentEnum &gt; &amp;componentTypes)</td></tr>
+<tr class="memdesc:ab17812c372ecb00cf28b11d859939e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the PixelTypes and ComponentTypes from fileNames.  <br /></td></tr>
+<tr class="separator:ab17812c372ecb00cf28b11d859939e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 28 2025 11:40:39 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+Generated on Tue Jan 28 2025 21:19:18 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
 </small></address>
 </body>
 </html>
