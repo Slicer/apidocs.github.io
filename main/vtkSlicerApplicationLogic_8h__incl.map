@@ -6,10 +6,10 @@
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="608,48,507,90,505,85,606,43"/>
 <area shape="rect" id="Node000026" title=" " alt="" coords="591,93,711,119"/>
 <area shape="poly" id="edge32_Node000001_Node000026" title=" " alt="" coords="654,46,654,79,649,79,649,46"/>
-<area shape="rect" id="Node000027" title=" " alt="" coords="735,93,933,119"/>
-<area shape="poly" id="edge33_Node000001_Node000027" title=" " alt="" coords="696,43,795,85,793,90,694,48"/>
-<area shape="rect" id="Node000028" title=" " alt="" coords="957,93,1021,119"/>
-<area shape="poly" id="edge34_Node000001_Node000028" title=" " alt="" coords="737,43,944,90,943,96,736,48"/>
+<area shape="rect" id="Node000027" title=" " alt="" coords="735,93,799,119"/>
+<area shape="poly" id="edge33_Node000001_Node000027" title=" " alt="" coords="681,43,740,83,737,88,678,48"/>
+<area shape="rect" id="Node000028" title=" " alt="" coords="823,93,887,119"/>
+<area shape="poly" id="edge34_Node000001_Node000028" title=" " alt="" coords="701,43,813,86,811,91,699,48"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="21,167,220,192"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="182,121,144,159,140,155,178,117"/>
 <area shape="rect" id="Node000005" href="$vtkMRMLAbstractLogic_8h.html" title=" " alt="" coords="245,167,429,192"/>
